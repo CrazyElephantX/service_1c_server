@@ -67,6 +67,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>СерверСКУЛЬ</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>СерверСКУЛЬПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СерверСКУЛЬРасширеннаяПодсказка</name>
           <id>11</id>
@@ -117,6 +121,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>БазаСКУЛЬ</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>БазаСКУЛЬПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>БазаСКУЛЬРасширеннаяПодсказка</name>
           <id>14</id>
