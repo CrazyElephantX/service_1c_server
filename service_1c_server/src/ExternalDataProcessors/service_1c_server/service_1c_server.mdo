@@ -20,4 +20,28 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="662d41ef-1853-450c-8ade-2b81ca21b6f6">
+    <name>ReindexRebild</name>
+    <synonym>
+      <key>ru</key>
+      <value>Reindex rebild</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c59b8da6-084d-4bf7-a901-ee7bcba2c10d">
+    <name>sp_updatestats</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sp updatestats</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1451070f-a4a4-44d6-8a96-c9e474304185">
+    <name>FREEPROCCACHE</name>
+    <synonym>
+      <key>ru</key>
+      <value>FREEPROCCACHE</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>

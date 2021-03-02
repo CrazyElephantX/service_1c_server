@@ -1,0 +1,2 @@
+USE SQLBASENAME;
+EXEC sp_updatestats;
