@@ -8,7 +8,7 @@
     <key>ru</key>
     <value>Service 1c server</value>
   </synonym>
-  <comment>v.1.0</comment>
+  <comment>v.1.2</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="5eaa30c8-7f3f-4e91-a720-ee2ae9b9eaf3"/>
   <defaultForm>ExternalDataProcessor.service_1c_server.Form.Форма</defaultForm>
   <forms uuid="bd54177a-d39d-4989-bc21-abd8634fc4da">
@@ -43,5 +43,29 @@
       <value>FREEPROCCACHE</value>
     </synonym>
     <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d36f4e54-8fca-4527-8d4f-3fdf36096e1c">
+    <name>SQL_ReindexRebild</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL reindex rebild</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f6757d95-3551-4d88-963d-dec225c52d57">
+    <name>SQL_sp_updatestats</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL sp updatestats</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="de825cad-1989-4f74-b4d5-ec008a039519">
+    <name>SQL_FREEPROCCACHE</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL FREEPROCCACHE</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
   </templates>
 </mdclass:ExternalDataProcessor>
