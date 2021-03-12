@@ -8,7 +8,7 @@
     <key>ru</key>
     <value>Service 1c server</value>
   </synonym>
-  <comment>v.1.2</comment>
+  <comment>v.1.3</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="5eaa30c8-7f3f-4e91-a720-ee2ae9b9eaf3"/>
   <defaultForm>ExternalDataProcessor.service_1c_server.Form.Форма</defaultForm>
   <forms uuid="bd54177a-d39d-4989-bc21-abd8634fc4da">
@@ -44,6 +44,14 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="48010bfa-bd18-4910-9619-fc8e27c13441">
+    <name>Select_Table_like_AccumRG</name>
+    <synonym>
+      <key>ru</key>
+      <value>Select table like accum RG</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
   <templates uuid="d36f4e54-8fca-4527-8d4f-3fdf36096e1c">
     <name>SQL_ReindexRebild</name>
     <synonym>
@@ -65,6 +73,14 @@
     <synonym>
       <key>ru</key>
       <value>SQL FREEPROCCACHE</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="bf0b940e-b6bc-472e-a45b-b67b98463b2d">
+    <name>SQL_Select_Table_like_AccumRG</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL select table like accumRG</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
